@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport "content="width=device-width, initial-scale=1.0">
+<title>Question</title>
+<style>
+    form{
+        align-content: center;
+    }
+    body{
+        align-items: center;
+    }
+</style>
+    </head>
+    <body>
+        <h1>FeedBack Submition 2 Form</h1>
+
+
+
+        <form action="question1.php" method="post">
+
+            <lable for="name">Name :</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <lable for="email">Email :</label>
+            <input type="text" id="email" name="email" required><br> <br>
+
+            <lable for="topic"> Topic :</label>
+            <select name="topic" id="topic" required>
+                <option value="Website">Website</option>
+                <option value="Product">Product</option>
+                <option value="Service">Service</option>
+            </select>
+            <br><br>
+            <label for="feedback">Feedback</label><br>
+            <textarea name="feedback" id="feedback" rows="3" cols="20"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+          
+        </form>  
+    </body>
+</html>
